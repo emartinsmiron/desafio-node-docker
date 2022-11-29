@@ -23,7 +23,7 @@ app.get('/', (req, res) =>{
         res.send(
             `<h1>Full Cycle Rocks!</h1> 
              <ol>
-                ${result.map(element => <li>${element.name}</li>)}
+                ${result.map(element => `<li>${element.name}</li>`)}
             </ol>`
             )
       });
