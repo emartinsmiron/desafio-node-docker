@@ -2,7 +2,7 @@ FROM node:15
 
 WORKDIR /usr/src/app
 
-#RUN npm install mysql --save && npm install express --save
+RUN npm install mysql --save && npm install express --save
 
 RUN apt-get update && apt-get install -y wget
 
