@@ -22,6 +22,7 @@ services:
     networks: 
     - people-network
     tty: true
+    entrypoint: dockerize -wait tcp://db:3306 -timeout 20s npm start
     ports: 
       - "3000:3000"
     depends_on:
