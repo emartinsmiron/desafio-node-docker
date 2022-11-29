@@ -1,6 +1,6 @@
 Desafio: docker-nginx-node-mysql
-Desafio do curso FullCycle, trabalhando com docker.
 
+Desafio do curso FullCycle, trabalhando com docker.
 
 Para rodar 
 git clone https://github.com/emartinsmiron/desafio-node-docker.git
